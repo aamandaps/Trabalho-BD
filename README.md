@@ -32,6 +32,7 @@ Limitações:
 condicionais ou funções de agregação;
 * Mínimo de 5 operações de software que chamem consultas SQL com que envolvam
 junções de tabelas;
+* 2 telas funcionais;
 
 Tema:
 
