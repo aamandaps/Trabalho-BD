@@ -55,7 +55,7 @@ GO
 -- 2. TABELAS COM DEPENDÊNCIA DE NÍVEL 1
 -- ==========================================
 CREATE TABLE cliente (                                  -- Constraints nível coluna
-	id				VARCHAR(14)		NOT NULL			CHECK(LEN(id) = 11 OR LEN(id) = 14), -- Ve
+	id				VARCHAR(14)		NOT NULL			CHECK(LEN(id) = 11 OR LEN(id) = 14), -- Ver
 	nome			VARCHAR(60)		NOT NULL,		
 	habilitacao		VARCHAR(20)		NOT NULL			UNIQUE,
 	telefone		CHAR(11)		NOT NULL			CHECK(LEN(telefone) = 11),
